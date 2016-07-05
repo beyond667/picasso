@@ -1,6 +1,7 @@
 package com.example.picasso;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -26,6 +27,7 @@ public class SampleGalleryActivity extends PicassoSampleActivity {
 
     animator = (ViewAnimator) findViewById(R.id.animator);
     imageView = (ImageView) findViewById(R.id.image);
+
 
     findViewById(R.id.go).setOnClickListener(new View.OnClickListener() {
       @Override public void onClick(View view) {
